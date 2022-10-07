@@ -1,0 +1,19 @@
+.container p{
+    text-align: center;
+    font-size: 18px;
+    
+}
+.card{
+    display: grid;
+    gap:1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem))
+ }
+ .img-card{
+  
+    height: 100px;
+    width: 100px;
+    background-image:url(/src/assets/servicio-academico.jpg) ;
+    background-size: cover;
+    
+ }

@@ -1,0 +1,15 @@
+.main-header{
+    height: 50vh;
+    width: 100vw;
+    background-image:url(/src/assets/bg-cover.jpg) ;
+    background-size: cover;
+}
+
+.main-title{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding-top: 20px ;
+   gap: 1.5rem;
+}
